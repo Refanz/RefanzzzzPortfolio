@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div
-                className={`bg-white shadow-lg w-80 h-dvh absolute top-0 ${isSidebarOpen ? "right-0" : "-right-100"} transition-all delay-100 duration-300 ease-in-out`}>
+                className={`bg-white shadow-lg w-80 h-dvh fixed top-0 ${isSidebarOpen ? "right-0" : "-right-100"} transition-all delay-100 duration-300 ease-in-out`}>
                 <div className="flex justify-between items-center p-4 shadow-xs">
                     <span className="font-bold text-2xl">{"<RSS/>"}</span>
                     <button className="size-9 p-[6px] hover:bg-gray-100 hover:rounded-lg cursor-pointer"
